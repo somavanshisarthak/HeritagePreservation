@@ -1,0 +1,13 @@
+train: /Users/sarthaksomavanshi/Downloads/HERITAGEDEFECT.v2i.yolov8/train/images
+val: /Users/sarthaksomavanshi/Downloads/HERITAGEDEFECT.v2i.yolov8/valid/images
+test: /Users/sarthaksomavanshi/Downloads/HERITAGEDEFECT.v2i.yolov8/test/images
+
+nc: 11
+names: ['Blackening', 'Brick Spalling', 'Concrete Spalling', 'Corrosion', 'Crack', 'Dampness', 'Dampness with fungus', 'Efflorescence', 'Flaking Plaster', 'Moss', 'Vegetation']
+
+roboflow:
+  workspace: mossdetectionproject-scxsl
+  project: heritagedefect
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/mossdetectionproject-scxsl/heritagedefect/dataset/2
